@@ -5,6 +5,7 @@ import StatCard from "@/components/StatCard";
 import { getRecentAppointmentList } from "@/lib/actions/appointment.action";
 import { DataTable } from "@/components/table/DataTable";
 import { Payment, columns } from "@/components/table/columns";
+//FRVCNVYR1QYS5TZBPZYQV83W
 
 const Admin = async () => {
   const appointments = await getRecentAppointmentList();
